@@ -1,0 +1,272 @@
+/* Segment 1 */
+
+header {
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 710px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    min-width: 710px;
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}   
+
+html
+{
+    /* width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px; */
+    overflow-x: hidden; 
+}
+
+/* #title {
+    text-align: left;
+} */
+
+.left-button {
+    background-color: black;
+    font-weight: 500;
+}
+
+.right-button {
+    background-color: #ffffff73;
+    color: black;
+    font-weight: 700;
+    border-color: black;
+}
+
+.navbar-toggler {
+    background-color: #ffffff98;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    opacity: 1;
+
+}
+
+.title-image {
+    width: 60%;
+    position: relative;
+    /* left: 20%; */
+    /* transform: rotate(25deg); */
+}
+
+.title-header-div {
+    position: relative;
+    top: 45%;
+}
+
+.title-header-div h1 {
+    font-weight: 900;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 1.35, .5);
+    -webkit-transform: translateZ(0);
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: pop_image;
+}
+
+@media (max-width: 710px) {
+    .title-header-div {
+        top: 0%;
+        text-align: center;
+    }
+  }
+
+/* .title-header-div button {
+    background-color: black;
+} */
+
+.title-div {
+    background-image: url("../Images/Filler1.jpg");
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1.5%;
+    opacity: .9;
+    height: 25rem;
+  }
+
+.feature-box {
+    padding: 2%;
+    text-align: center;
+    ;
+}
+
+/* segment 2 */
+
+/* Floor Plans */
+
+.floor-plans-title {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Carousel */
+
+#pricing {
+    padding: 3%;
+    text-align: center;
+    background-color: #E4E3E7;
+    color: #000000;
+}
+
+/* TODO: needs to move down a bit
+#pricing em {
+    bottom: 3%;
+} */
+
+.pricing-image {
+    height: 20rem;  
+}
+
+/* Segment 3 */
+/* cards */
+
+.card {
+    margin: 4%;
+}
+
+@media (max-width: 710px) {
+    .card {
+        text-align: center;
+    }    
+}
+
+/* segment 4 */
+
+/* Contact me */
+
+#contact-form {
+    text-align: center;
+}
+
+#contact-form h1 {
+    padding: 1%;
+}
+
+#contact-form .background-div {
+    background-image: url("../Images/map_background.png");
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .5;
+    min-width: 710px;
+    padding-bottom: 3%;
+    /* position: relative; */
+}
+
+.contact-me {
+    position: relative;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    text-align: left;
+    border: #000000;
+    border-style: solid;
+    padding: 3%;
+    border-radius: 5%;
+    /* margin-bottom: 3%; */
+    background-color: #80808088;
+    /* margin: 0; */
+}
+
+@media (max-width: 710px) {
+    #contact-form .background-div {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        /* width: min-content; */
+        /* height: 100rem; */
+    }
+
+    .contact-me {
+        text-align: center;
+    }
+
+    /* .contact-me div.flexy {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-evenly;
+        flex-direction: column;
+    } */
+  }
+
+.contact-me label {
+    font-weight: 900;
+    color: #000000;
+}
+
+/* .contact-me input {
+    padding: 2%;
+    margin: 2%;
+} */
+
+.inside {
+    margin: 3%;
+}
+.inside input {
+    padding: 5%;
+    margin: 2%;
+}
+
+.inside textarea {
+    padding: 4%;
+    margin: 2%;
+    min-width: 20rem;
+    min-height: 10rem;
+}
+
+.contact-me form button {
+    /* margin: 4%; */
+    max-height: 3rem;
+    /* margin-left: 2%; */
+}
+
+.contact-me div.flexy {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: inherit; */
+    align-content: space-around;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    text-align: left;
+}
+
+/* .contact-text {
+    width: 250px;
+} */
+
+/* Unrelated */
+
+
+@-webkit-keyframes pop_image
+{
+    0% {transform: scale(0,0);
+-ms-transform: scale(0,0); /* IE 9 */
+-webkit-transform: scale(0,0); /* Safari and Chrome */
+-o-transform: scale(0,0); /* Opera */
+-moz-transform: scale(0,0); /* Firefox */}
+
+    100% {transform: scale(1,1);
+-ms-transform: scale(1,1); /* IE 9 */
+-webkit-transform: scale(1,1); /* Safari and Chrome */
+-o-transform: scale(1,1); /* Opera */
+-moz-transform: scale(1,1); /* Firefox */}
+}
+
+
