@@ -2,4 +2,4 @@
 
 ### THIS IS ONLY A FOUNDATION
 
-All requests will be considered. 
+All design requests will be considered. 
